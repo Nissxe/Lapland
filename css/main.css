@@ -292,36 +292,14 @@ header .fa-chevron-down {
 .team .card {
   transition: transform 0.3s;
 }
-.team .card img {
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.team .card i {
-  padding: 10px;
-  color: royalblue;
-}
 .team .card:hover {
   transform: scale(0.98);
-}
-.team .card-title {
-  margin-bottom: 20px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.team .card-body {
-  height: 160px;
 }
 
 .contact h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/*footer*/
-footer {
-  background-color: royalblue;
 }
 
 /*media query*/

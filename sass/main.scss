@@ -241,26 +241,28 @@ header {
 .team {
 	.card {
 		transition: transform 0.3s;
-		img {
-			height: 300px;
-			object-fit: cover;
-		}
-		i {
-			padding: 10px;
-			color: $main-color;
-		}
+		// img {
+		// 	background-position: center;
+		// 	background-size: cover;
+		// 	background-attachment: fixed;
+		// 	object-fit: cover;
+		// }
+		// i {
+		// 	padding: 10px;
+		// 	color: $main-color;
+		// }
 	}
 	.card:hover {
 		transform: scale(0.98);
 	}
-	.card-title {
-		margin-bottom: 20px;
-		text-align: center;
-		text-transform: uppercase;
-	}
-	.card-body {
-		height: 160px;
-	}
+	// .card-title {
+	// 	margin-bottom: 20px;
+	// 	text-align: center;
+	// 	text-transform: uppercase;
+	// }
+	// .card-body {
+	// 	height: 160px;
+	// }
 }
 
 .contact {
@@ -269,11 +271,6 @@ header {
 		justify-content: center;
 		align-items: center;
 	}
-}
-
-/*footer*/
-footer {
-	background-color: $main-color;
 }
 
 /*media query*/
